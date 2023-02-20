@@ -1,0 +1,116 @@
+2023-02-20 00:55:22,478 werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.3:5000
+2023-02-20 00:55:22,478 werkzeug [33mPress CTRL+C to quit[0m
+2023-02-20 00:56:13,516 root Using url_for to build URLs for the show_user_profile and show_post functions
+2023-02-20 00:56:13,517 app Exception on / [GET]
+Traceback (most recent call last):
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/config/workspace/app.py", line 24, in index
+    user_url = url_for('show_user_profile', username='John')
+NameError: name 'url_for' is not defined
+2023-02-20 00:56:13,518 werkzeug 172.18.0.2 - - [20/Feb/2023 00:56:13] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-02-20 00:56:15,572 root Using url_for to build URLs for the show_user_profile and show_post functions
+2023-02-20 00:56:15,572 app Exception on / [GET]
+Traceback (most recent call last):
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/config/workspace/app.py", line 24, in index
+    user_url = url_for('show_user_profile', username='John')
+NameError: name 'url_for' is not defined
+2023-02-20 00:56:15,573 werkzeug 172.18.0.2 - - [20/Feb/2023 00:56:15] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-02-20 00:56:20,915 werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.3:5000
+2023-02-20 00:56:20,916 werkzeug [33mPress CTRL+C to quit[0m
+2023-02-20 00:57:05,269 werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.3:5000
+2023-02-20 00:57:05,269 werkzeug [33mPress CTRL+C to quit[0m
+2023-02-20 00:57:12,557 werkzeug 172.18.0.2 - - [20/Feb/2023 00:57:12] "GET / HTTP/1.1" 200 -
+2023-02-20 00:59:49,696 root Using url_for to build URLs for the show_user_profile and show_post functions
+2023-02-20 00:59:49,696 app Exception on /1 [GET]
+Traceback (most recent call last):
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/config/.local/lib/python3.8/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/config/workspace/app.py", line 24, in index
+    user_url = url_for('show_user_profile', username='John')
+NameError: name 'url_for' is not defined
+2023-02-20 00:59:49,698 werkzeug 172.18.0.2 - - [20/Feb/2023 00:59:49] "[35m[1mGET /1 HTTP/1.1[0m" 500 -
+2023-02-20 01:03:19,444 werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.3:5000
+2023-02-20 01:03:19,444 werkzeug [33mPress CTRL+C to quit[0m
+2023-02-20 01:03:21,742 root Using url_for to build URLs for the show_user_profile and show_post functions
+2023-02-20 01:03:21,742 werkzeug 172.18.0.2 - - [20/Feb/2023 01:03:21] "GET /1 HTTP/1.1" 200 -
+2023-02-20 01:03:44,934 werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.3:5000
+2023-02-20 01:03:44,934 werkzeug [33mPress CTRL+C to quit[0m
+2023-02-20 01:03:47,705 root Using url_for to build URLs for the show_user_profile and show_post functions
+2023-02-20 01:03:47,705 root Using url_for to build a URL for the login function
+2023-02-20 01:03:47,705 werkzeug 172.18.0.2 - - [20/Feb/2023 01:03:47] "GET /1 HTTP/1.1" 200 -
+2023-02-20 01:07:08,314 werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.3:5000
+2023-02-20 01:07:08,314 werkzeug [33mPress CTRL+C to quit[0m
+2023-02-20 01:07:13,038 werkzeug 172.18.0.2 - - [20/Feb/2023 01:07:13] "[33mGET /1 HTTP/1.1[0m" 404 -
+2023-02-20 01:08:36,854 werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.3:5000
+2023-02-20 01:08:36,854 werkzeug [33mPress CTRL+C to quit[0m
+2023-02-20 01:08:56,147 werkzeug 172.18.0.2 - - [20/Feb/2023 01:08:56] "[33mGET /1 HTTP/1.1[0m" 404 -
+2023-02-20 01:09:49,426 werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.3:5000
+2023-02-20 01:09:49,427 werkzeug [33mPress CTRL+C to quit[0m
+2023-02-20 01:09:52,583 werkzeug 172.18.0.2 - - [20/Feb/2023 01:09:52] "GET /1 HTTP/1.1" 200 -
+2023-02-20 01:11:58,057 werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.3:5000
+2023-02-20 01:11:58,057 werkzeug [33mPress CTRL+C to quit[0m
+2023-02-20 01:12:02,348 werkzeug 172.18.0.2 - - [20/Feb/2023 01:12:02] "[33mGET /1 HTTP/1.1[0m" 404 -
+2023-02-20 01:13:44,133 werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.3:5000
+2023-02-20 01:13:44,134 werkzeug [33mPress CTRL+C to quit[0m
+2023-02-20 01:13:51,754 werkzeug 172.18.0.2 - - [20/Feb/2023 01:13:51] "[33mGET /1 HTTP/1.1[0m" 404 -
+2023-02-20 01:13:52,706 werkzeug 172.18.0.2 - - [20/Feb/2023 01:13:52] "[33mGET /1 HTTP/1.1[0m" 404 -
+2023-02-20 01:16:40,436 werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.3:5000
+2023-02-20 01:16:40,436 werkzeug [33mPress CTRL+C to quit[0m
+2023-02-20 01:16:44,752 werkzeug 172.18.0.2 - - [20/Feb/2023 01:16:44] "[33mGET /1 HTTP/1.1[0m" 404 -
+2023-02-20 01:16:46,065 werkzeug 172.18.0.2 - - [20/Feb/2023 01:16:46] "[33mGET /1 HTTP/1.1[0m" 404 -
+2023-02-20 01:17:05,763 root generate a URL for the hello() function with the name parameter set to 'asad' 
+2023-02-20 01:17:05,763 werkzeug 172.18.0.2 - - [20/Feb/2023 01:17:05] "GET / HTTP/1.1" 200 -
